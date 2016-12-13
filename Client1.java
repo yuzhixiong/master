@@ -25,11 +25,15 @@ public class Client1 {
 	//输出给服务器
 	BufferedReader is = new BufferedReader(new InputStreamReader(server.getInputStream()));
 	//服务器的输入
-	if(is.readLine().equals("true"))
+	
 	load();
+	if(is.readLine().equals("true"))
 	movie();
+	if(is.readLine().equals("true"))
 	time();
+	if(is.readLine().equals("true"))
 	date();
+	if(is.readLine().equals("true"))
 	seat();
 	
 	
